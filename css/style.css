@@ -5,12 +5,12 @@
 }
 
 .hero img {
-    width: auto;
+    width:max-content;
 
 }
 
 .img-main-picture {
-width:auto;
+width:max-content;
 }
 
 .hero-text {
