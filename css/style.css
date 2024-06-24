@@ -50,3 +50,7 @@
 .hero-text p {
   font-size: 1.5rem;
 }
+
+.card {
+  border: 20px;
+}
