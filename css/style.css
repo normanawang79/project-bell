@@ -41,3 +41,29 @@ width: 80%;
 max-width: 100%;
 height: auto;
 }
+
+.card {
+  display: flex;
+  justify-content: space-around; /* Distributes space around the articles */
+  padding: 20px;
+}
+
+.card-body {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 30%; /* Adjust this value as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+}
+
+.card-text {
+  font-size: 1em;
+  margin: 0;
+}
