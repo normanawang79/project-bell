@@ -5,12 +5,12 @@
 }
 
 .hero img {
-    width:max-content;
+    width:auto;
 
 }
 
 .img-main-picture {
-width:max-content;
+width:auto;
 }
 
 .hero-text {
@@ -20,6 +20,7 @@ width:max-content;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
+    z-index: 10;
 }
 
 .hero-text h1 {
