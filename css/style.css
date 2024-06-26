@@ -1,22 +1,14 @@
-/* Container holding the image and the text */
-.container {
-  position: relative;
+.navbar-navbar-expand-lg navbar-dark bg-dark {
+  background-color: blue;
 }
 
-/* Bottom right text */
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
+.container {
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  
-.hero img {
+  background-image:stretch;
+  text-align: right;
+  text-align: end;
   width: 100vw;
-  height:20vh;
-}
+  height: 30%,
 
 }
 .hero-text {
@@ -36,7 +28,7 @@
 }
 
 .card {
-  border: 20px;
+ width: 100vw
 }
 
 .card-title{
@@ -50,4 +42,13 @@
 .hero-image{
   min-width: 100vw;
 
+}
+
+.col-md-8{
+  justify-content: space-between;
+  width:max-content
+
+}
+.col-md-4{
+  flex-wrap:wrap;
 }
