@@ -22,11 +22,14 @@ body {
 }
 
 .article {
-  transition: transform 0.2s;
+  margin-bottom: 20px;
+  align-items: center;
 }
 
-.article:hover {
-  transform: scale(1.05);
+.article-img {
+  max-width: 150px;
+  height: auto;
+  margin-right: 20px;
 }
 
 .sidebar {
@@ -35,7 +38,11 @@ body {
 }
 
 .list-group-item {
-  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.list-group-item:hover {
+  transform: scale(1.05);
 }
 
 footer .fab {
