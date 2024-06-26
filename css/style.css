@@ -1,54 +1,48 @@
-body {
-  font-family: Arial, sans-serif;
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
 }
-
-.hero-section {
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.hero {
   position: relative;
-  background-size: cover;
-  background-position: center;
-  color: white;
   text-align: center;
-  padding: 100px 20px;
+  color: white;
 }
-
-.hero-text {
-  background-color: rgba(0, 0, 0, 0.5);
-  display: inline-block;
-  padding: 20px;
-}
-
-.article-section {
-  margin: 20px 0;
-}
-
-.article {
-  margin-bottom: 20px;
-  align-items: center;
-}
-
-.article-img {
-  max-width: 150px;
+.hero img {
+  width: 100%;
   height: auto;
-  margin-right: 20px;
 }
-
-.sidebar {
-  position: sticky;
-  top: 20px;
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
 }
-
-.list-group-item {
-  transition: transform 0.2s;
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
-
-.list-group-item:hover {
-  transform: scale(1.05);
-}
-
-footer .fab {
+.hero-text p {
   font-size: 1.5rem;
 }
 
-.ratings {
-  font-size: 1.5rem;
+.card {
+  border: 20px;
 }

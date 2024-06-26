@@ -4,106 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M4M Massages</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#" style="font-family: Impact;">M4M Massages</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <div class="container-fluid">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">M4M Massages</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/spamassage.jpg" alt="Spa Massage" class="img-fluid">
+        <div class="hero-text">
+            <h1>Relax and Rejuvenate with M4M. By Men For Men</h1>
+            <h5><em>One-stop portal to access to your preferred massage treatments by male masseurs from massage providers all over Singapore, both incall and outcall.</em></h5>
+        
+        <p></p>
+        </div>
+    </section>
+    <div class="container my-5">
         <div class="row">
-            <div class="col-md-9">
-                <div id="home" class="hero-section" style="background-image: url('images/spamassage.jpg');">
-                    <div class="hero-text">
-                        <h1>Welcome to M4M Massages</h1>
-                        <p>Relax, rejuvenate, and revive with our exceptional massage services.</p>
-                    </div>
-                </div>
-
-                <div class="article-section">
-                    <div class="article d-flex">
-                        <img src="images/article1.jpg" class="img-fluid article-img" alt="Article 1">
-                        <div class="article-content">
-                            <h2>Article 1</h2>
-                            <p>Content for article 1.</p>
+            <!-- Articles Section -->
+            <div class="col-md-8">
+                <div class="d-flex justify-content-around">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/beachsidemassage.jpg" class="card-img-top" alt="Article Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Comfortable and Inclusive Environment</h5>
+                            <p class="card-text">Short description for the first article.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
-                    <div class="article d-flex">
-                        <img src="images/article2.jpg" class="img-fluid article-img" alt="Article 2">
-                        <div class="article-content">
-                            <h2>Article 2</h2>
-                            <p>Content for article 2.</p>
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/beachsidemassage.jpg" class="card-img-top" alt="Article Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Addressing Unique Needs</h5>
+                            <p class="card-text">Short description for the second article.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
-                    <div class="article d-flex">
-                        <img src="images/article3.jpg" class="img-fluid article-img" alt="Article 3">
-                        <div class="article-content">
-                            <h2>Article 3</h2>
-                            <p>Content for article 3.</p>
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/beachsidemassage.jpg" class="card-img-top" alt="Article Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Encouraging Open Communication</h5>
+                            <p class="card-text">Short description for the third article.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-3">
-                <div class="sidebar">
-                    <ul class="list-group">
-                        <li class="list-group-item">Item 1</li>
-                        <li class="list-group-item">Item 2</li>
-                        <li class="list-group-item">Item 3</li>
-                        <li class="list-group-item">Item 4</li>
-                        <li class="list-group-item">Item 5</li>
-                        <li class="list-group-item">Item 6</li>
-                        <li class="list-group-item">Item 7</li>
-                        <li class="list-group-item">Item 8</li>
-                        <li class="list-group-item">Item 9</li>
-                        <li class="list-group-item">Item 10</li>
-                        <li class="list-group-item">Item 11</li>
-                        <li class="list-group-item">Item 12</li>
-                    </ul>
-                </div>
+            <!-- Sidebar Section -->
+            <div class="col-md-4">
+                <h5 class="mb-3">Your Preferred Massage Treatments</h5>
+                <h5 class="mb-3">Click on Your Preferred Massage Treatments</h5>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#item1">Full Body</a></li>
+                    <li class="list-group-item"><a href="#item2">Aromatherapy</a></li>
+                    <li class="list-group-item"><a href="#item3">Thai</a></li>
+                    <li class="list-group-item"><a href="#item4">Traditional Malay</a></li>
+                    <li class="list-group-item"><a href="#item5">Sports</a></li>
+                    <li class="list-group-item"><a href="#item6">Hot Stone</a></li>
+                    <li class="list-group-item"><a href="#item7">Shiatsu</a></li>
+                    <li class="list-group-item"><a href="#item8">Swedish</a></li>
+                    <li class="list-group-item"><a href="#item9">Reflexology</a></li>
+                    <li class="list-group-item"><a href="#item10">Head, Back and Shoulders</a>
+                    <li class="list-group-item"><a href="#item10">Manhood</a></li>
+                    <li class="list-group-item"><a href="#item10">Prostate</a></li></li>
+                </ul>
             </div>
         </div>
     </div>
-
+    <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 M4M Massages. All rights reserved.</p>
-        <div>
-            <a href="#" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
-        </div>
-        <div class="ratings mt-2">
-            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-        </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
