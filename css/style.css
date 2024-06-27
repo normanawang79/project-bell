@@ -1,54 +1,36 @@
-.navbar-navbar-expand-lg navbar-dark bg-dark {
-  background-color: blue;
+.image-section {
+  background: url('../images/spamassage.jpg') no-repeat center center/cover;
+  height: 40vh;
+  width: 100%;
+  position: relative;
 }
 
-.container {
+.overlay-text {
   color: white;
-  background-image:stretch;
-  text-align: right;
-  text-align: end;
-  width: 100vw;
-  height: 30%,
-
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  
 }
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.items-section .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align:center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.items-section .item i {
+  color: #007bff;
+}
+
+.sidebar {
+  padding-top: 5px;
+}
+
+.card-header button {
+  width: 100%;
   text-align: center;
-  color: white;
-}
-.hero-text h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.hero-text p {
-  font-size: 1.5rem;
-}
-
-.card {
- width: 100vw
-}
-
-.card-title{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.card-text{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.hero-image{
-  min-width: 100vw;
-
-}
-
-.col-md-8{
-  justify-content: space-between;
-  width:max-content
-
-}
-.col-md-4{
-  flex-wrap:wrap;
 }

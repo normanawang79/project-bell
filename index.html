@@ -3,100 +3,259 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M4M Massages</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Bootstrap Layout</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; background-color: blue;">
-        <a class="navbar-brand" href="#">M4M Massages</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Hero Section -->
-    <div class="container" style="background-image: url(../images/spamassage.jpg); color: white; width:100vw; height:100vh">
-        <h1 style="font-weight: bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Relax and Rejuvenate with M4M</h1> 
-        <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">By Men For Men</h3>
-        <div class="text-block" style="display: inline; position: absolute;"></div>  
-        
-    </div>
-    <br>
-    <h5 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: lighter;"><em>One-stop portal for easy access to your preferred massage treatments from both incall and outcall massage providers all over Singapore.</em></h5>
-    <br>    
 
-</section>
-   
-    <!-- Articles Section -->
-    <div class="col-md-8">
-        <div class="d-flex justify-content-around">
-            <div class="card" style="width: 18rem;">
-                <img src="images/beachsidemassage.jpg" class="card-img-top" alt="Article Image 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Comfortable and Inclusive Environment</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore velit vero deserunt obcaecati minus voluptatem veritatis ipsa! Illum molestiae, voluptatem ab sint accusantium voluptate, aut sapiente modi, deleniti quisquam officiis.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
-                    </div>
-             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="images/beachsidemassage.jpg" class="card-img-top" alt="Article Image 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Addressing Unique Needs</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus rem ullam ut aperiam autem quia, obcaecati dolorum dolores. Commodi tempore in, eum nesciunt aliquam quidem et animi sequi provident hic?</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
-                    </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="images/beachsidemassage.jpg" class="card-img-top" alt="Article Image 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Encouraging Open Communication</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt dolore repellendus nesciunt cumque eveniet quidem facilis! Ab natus doloremque quis expedita saepe veritatis cumque consectetur aperiam, minima iure maiores dolor.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
-                    </div>
-            </div>
-        </div>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" style="font-weight: bolder;">M4M Massages <br> <em style="font-weight: lighter;">By Men for Men.</em>    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
     </div>
-<!-- Sidebar Section -->
-    <div class="col-md-4">
-    <br>
-         <h5 class="mb-3" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Click on Your Preferred Massage Treatments</h5>
-            <ul class="list-group">
-                <li class="list-group-item"><a href="#item1">Full Body</a></li>
-                <li class="list-group-item"><a href="#item2">Aromatherapy</a></li>
-                <li class="list-group-item"><a href="#item3">Thai</a></li>
-                <li class="list-group-item"><a href="#item4">Traditional Malay</a></li>
-                <li class="list-group-item"><a href="#item5">Sports</a></li>
-                <li class="list-group-item"><a href="#item6">Hot Stone</a></li>
-                <li class="list-group-item"><a href="#item7">Shiatsu</a></li>
-                <li class="list-group-item"><a href="#item8">Swedish</a></li>
-                <li class="list-group-item"><a href="#item9">Reflexology</a></li>
-                <li class="list-group-item"><a href="#item10">Head, Back and Shoulders</a>
-                <li class="list-group-item"><a href="#item10">Manhood</a></li>
-                <li class="list-group-item"><a href="#item10">Prostate</a></li></li>
-            </ul>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Left Column (80%) -->
+        <div class="col-lg-8">
+            <!-- Section with Image and Introductory Texts -->
+            <section class="image-section d-flex align-items-center justify-content-center text-center ">
+                <div class="overlay-text">
+                    <h2 style="font-weight: bolder;">Relax and Rejuvenate with M4M Massages</h2>
+                    <h5 style="font-style: italic;">Your One-Stop Portal to Easy Access to Your Preferred Massage Treatments by Male Masseurs from Establishments all over Singapore. Both Incall and Outcall.</h5>
+                <img src="images/spamassage.jpg">
+                </div>
+            </section>
+
+            <!-- Two Items on a Row -->
+            <section class="items-section container my-5">
+                <div class="row justify-content-around">
+                    <div class="col-md-4 mb-4">
+                        <div class="item text-left" style="font-style: italic;">
+                            <i class="fas fa-spa fa-3x mb-3"></i>
+                            <article>
+                                <h2>Strength and Pressure</h2>
+                                <p>Men tend to have naturally more strength than women. This can be beneficial if you prefer a deep tissue massage to target those stubborn knots and tight muscles.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="item text-left" style="font-style: italic;">
+                            <i class="fas fa-leaf fa-3x mb-3"></i>
+                            <article>
+                                <h2>Addressing Unique Needs</h2>
+                                <p>Men understand the male anatomy and related concerns can provide specialized treatments that cater to men's specific needs. This expertise can be particularly beneficial for male clients who may have unique physical or emotional requirements.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="item text-left" style="font-style: italic;">
+                            <i class="fas fa-leaf fa-3x mb-3"></i>
+                            <article>
+                                <h2>Body Size</h2>
+                                <p>Men have larger build. So, if you have a larger build, you might feel more comfortable with a male masseur whose size is more comparable to yours. This can help you feel more relaxed and allow the therapist to apply better pressure during the massage.</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Right Column (20%) -->
+        <div class="col-lg-4"><h5><em>Click on your preferred massage treatments</em></h5>
+            <aside class="sidebar mt-5">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Aromatherapy Full Body
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem isicing elit. Quisquam, repudiandae ratione. Facere earum quod illum fugiat voluptas temporibus voluptates, repudiandae ullam. Natus accusantium cupiditate laboriosam rerum 
+                            <br><br>
+                            Name of Establishment / Individual: AAA
+                            <br>
+                            Address:
+                            <br>
+                            Contact: 123 (Mobile) / 456 (Office) / BBB (Website)
+                            <br>
+                            Ambience: Quiet and Cosy
+                            <br>
+                            Cleanliness: 5/5
+                            <br>
+                            Staff Friendliness: 4/5
+                            <br>
+                            Pricing: $$$$
+                             </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Thai
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis magnam harum iure alias in minima cupiditate. Suscipit ad saepe illo, error, harum aspernatur tenetur, distinctio sequi cumque eaque ipsum reprehenderit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque accusantium corporis modi facilis maxime explicabo distinctio. Nostrum ad ex adipisci ut suscipit consectetur aspernatur, ratione eius ea officiis aut nihil?
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat similar structure for items 3 to 10 -->
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Traditional Malay/Javanese
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur corporis, nobis esse voluptate quidem libero, itaque impedit quaerat numquam illo magnam nisi placeat tempore explicabo odio aliquid nam! Ducimus, optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aperiam tempore quisquam officiis expedita mollitia amet nam obcaecati est incidunt animi commodi veritatis at, in, facilis iure eveniet molestiae odit.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Sports
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, deleniti quo commodi sint quae harum obcaecati quibusdam impedit a voluptatibus, ullam aperiam vitae fugiat tempore at, debitis ex natus hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, labore autem, ullam recusandae culpa vel aperiam obcaecati voluptates libero ea ipsam suscipit facere ratione excepturi aut vitae et, explicabo delectus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Swedish
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias praesentium id eveniet ipsum vel tenetur error temporibus ad quisquam sapiente ratione molestias nobis, sequi modi, eaque voluptas, ullam exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam et soluta molestiae aliquid asperiores vitae nisi enim necessitatibus aspernatur expedita sed maxime, nesciunt deleniti obcaecati repellat facilis? Ducimus, natus ullam? 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Hydrotherapy
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis repellat perspiciatis laborum tempora repellendus atque sed nemo. Et exercitationem ipsa praesentium vel voluptatem molestias, natus commodi, voluptate totam unde officiis!Lorem
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Hot Stone
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta libero rem nostrum odit vero hic quo officiis. Porro commodi culpa non harum, est sequi id facere eveniet nostrum repellendus quo!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, enim alias sunt nihil illum maxime. Excepturi itaque, consequuntur aperiam veritatis similique dicta, quidem earum rem eveniet eos, molestiae natus numquam.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Reflexology
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tenetur, quibusdam ut, libero debitis voluptatibus ducimus saepe qui iure cum officia deserunt, impedit possimus laudantium necessitatibus quod. Voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quidem explicabo eum repudiandae ad dicta necessitatibus doloribus libero non quod praesentium excepturi voluptate cumque, esse error sapiente, perferendis exercitationem. Alias!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Head, Back and Shoulders
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, fugit temporibus dolorum magnam incidunt recusandae sunt reprehenderit, tempora provident enim non, iure eveniet dolorem error doloribus? Iste rem corrupti vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem optio nam possimus, at eius omnis ea error facere saepe voluptatibus, qui ad quaerat recusandae accusamus laboriosam. Consequuntur voluptates delectus cum!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Manhood/Prostate
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium consequuntur nulla minus voluptatibus ea, corporis expedita rerum, obcaecati perferendis optio sint ullam temporibus beatae minima tempora? Placeat et voluptate rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deleniti labore, consectetur aperiam eveniet quisquam provident amet expedita deserunt. Alias tempore eaque hic beatae amet deserunt tenetur eligendi, ullam repellat.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more items up to item 10 -->
+                </div>
+            </aside>
+        </div>
     </div>
 </div>
-   
-<!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 M4M Massages. All rights reserved.</p>
-    </footer>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+<!-- Footer -->
+<footer class="footer bg-light text-center py-3">
+    <div class="container">
+        <p>&copy; 2023 M4M Massages. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
-</html>
+</html>   
