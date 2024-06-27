@@ -54,3 +54,9 @@
 @media only screen and (min-width: 1200px) {
   
 }
+
+.business-list {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 1em;
+
+}
