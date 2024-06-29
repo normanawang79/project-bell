@@ -7,27 +7,45 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<header> 
+    <div class="container-one">
+        <div class="header-column">
+            <h4 style="color: blue;">AD</h4>
+            <p style="color: blue;">Advertisement content here</p>
+        </div>
+          
+        <div class="header-column" style="background-color: rgb(241, 219, 191);">
+            <h4 style="font-weight: bolder;">M4M Massages</h4>
+            <p style="font-weight: bold;">by Men for Men</p>
+        </div>
+          
+        <div class="header-column">
+            <h4 style="color: blue;">AD</h4>
+            <p style="color:blue">Advertisement content here</p>
+        </div>
+    </div>
+</header>
 
 <!-- Navigation Bar -->
+<body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#" style="font-weight: bolder;">M4M Massages <br><em style="font-weight: lighter;">by Men for Men.</em>    </a>
+    <h6 style="font-style: italic; font-weight: bolder;">Your One-Stop Portal for Easy Access to<br>Massage Treatments by Male Masseurs in Singapore</h6> 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto">     
             <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="/reviews.html">Read Massage Reviews</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/reviews.html">Reviews</a>
+                <a class="nav-link" href="#">Submit Feedback</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">Advertise with M4M</a>
             </li>
         </ul>
     </div>
@@ -35,54 +53,40 @@
 
 <div class="container-fluid" style="background-color: beige;">
     <div class="row">
-        <!-- Left Column (80%) -->
-        <div class="col-lg-8">
-            <!-- Section with Image and Introductory Texts -->
-            <section class="image-section d-flex align-items-center justify-content-center text-center ">
-                <div class="overlay-text" style="padding-top: 0;">  
-                    <h6>Your One-Stop Portal for Easy Access to Your Preferred Massage Treatments by Male Masseurs in Singapore</h6>
-                </div>
-            </section>
-
-            <!-- Three Items on a Row -->
+        <!-- Left Column (75%) -->
+        <div class="col-lg-9">
+            <!-- div with Image -->
+            <div class="image-section"></div>
             <h1 class="h1">Why use male masseurs?</h1>
-            <section class="items-section container my-5">
-                <div class="row justify-content-around">
-                    <div class="col-md-4 mb-4" class="box">
-                        <div class="item text-left" style="font-style: italic;">
-                            <i class="fas fa-spa fa-3x mb-3"></i>
-                            <article style="background-color:antiquewhite; padding: 1em;">
+            <!-- Three Items on a Row -->
+            <div class="items-section container my5">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="text">
                                 <h2>Strength and Pressure</h2>
                                 <p>Men tend to have naturally more strength than women. This can be beneficial if you prefer a deep tissue massage to target those stubborn knots and tight muscles.</p>
-                            </article>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
-                        <div class="item text-left" style="font-style: italic;">
-                            <i class="fas fa-leaf fa-3x mb-3"></i>
-                            
-                            <article style="background-color:antiquewhite; padding: 1em;">
+                        <div class="text">
                                 <h2>Addressing Unique Needs</h2>
                                 <p>Men understand the male anatomy and related concerns can provide specialized treatments that cater to men's specific needs. This expertise can be particularly beneficial for male clients who may have unique physical or emotional requirements.</p>
-                            </article>
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
-                        <div class="item text-left" style="font-style: italic;">
-                            <i class="fas fa-leaf fa-3x mb-3"></i>
-                            <article style="background-color:antiquewhite; padding: 1em;">
+                        <div class="text">
                                 <h2>Body Size</h2>
                                 <p>Men have larger build. So, if you have a larger build, you might feel more comfortable with a male masseur whose size is more comparable to yours. This can help you feel more relaxed and allow the therapist to apply better pressure during the massage.</p>
-                            </article>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
 
-        <!-- Right Column (20%) -->
-        <div class="col-lg-4" style="background-color: antiquewhite;">
-            <aside class="sidebar mt-3"><h6 style="background-color:rgb(236, 226, 212); padding: auto;">Click on your preferred massage treatments to access to massage providers</h6>
+        <!-- Right Column (25%) -->
+        <div class="col-lg-3" style="background-color: antiquewhite;">
+            <aside class="sidebar">
+                <h6 style="font-style: italic; text-align: center;">Click on your preferred massage treatments to access to the massage providers</h6>
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingOne">
@@ -249,7 +253,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Add more items up to item 10 -->
                 </div>
             </aside>
         </div>
@@ -259,7 +262,7 @@
 <!-- Footer -->
 <footer class="footer bg-light text-center py-3">
     <div class="container">
-        <p>&copy; 2024 M4M Massages. All rights reserved.</p>
+        <p>&copy; 2024 M4M Massages. <a href="reviews.html">Click to Read Massage Reviews</a>
     </div>
 </footer>
 
