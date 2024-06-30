@@ -102,26 +102,19 @@ padding:0.5em;
 /* Extra small devices (phones, 600px and below} */
 @media only screen and (max-width: 600px) { 
   .sidebar {
-    background-color:rgb(71, 44, 97);  
-    color: white; 
+    background-color:rgb(213, 182, 241);  
+    color: black; 
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and above} */
-@media only screen and (min-width: 600px) {
-
-
-}
+/* @media only screen and (min-width: 600px) {} *
 
 /* Medium devices (landscape tablets, 768px and above) */
-@media only screen and (min-width: 768px) {
-  
-}
-/* Large devices (laptop/desktop, 992px and above) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 768px) {} */
 
-}
+/* Large devices (laptop/desktop, 992px and above) */
+/* @media only screen and (min-width: 992px) {} */
+
 /* Extra large devices (large laptops and desktops, 1200px and above) */
-@media only screen and (min-width: 1200px) {
-  
-}
+/* @media only screen and (min-width: 1200px) {} */
 
