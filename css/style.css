@@ -41,6 +41,11 @@
   flex-basis: 100px;
 }
 
+.nav-link {
+  color:rgb(101, 64, 18);
+  font-weight: bolder;
+
+}
 .main {
   display:flex;   
 }
@@ -121,7 +126,7 @@ padding:0.5em;
     background-color: rgb(228, 218, 238);
   }
 
-  .text{
+  .text {
     background-color: rgb(228, 218, 238); 
   }
   
