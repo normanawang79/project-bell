@@ -13,7 +13,8 @@
   border: solid;
   margin: 0.5em;
   overflow:auto;
-  
+
+
 }
 
 /* Flex properties for header columns */
@@ -134,6 +135,7 @@ padding:0.5em;
     background-color:rgb(213, 182, 241);  
     color: black; 
   }
+  
 }
 /* Small devices (portrait tablets and large phones, 600px and above} */
 /* @media only screen and (min-width: 600px) {} *
